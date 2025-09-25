@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Opening booking page]]>
+    </line>
+    <line>
+      <![CDATA[Filling booking form with missing/invalid data]]>
+    </line>
+    <line>
+      <![CDATA[Name error message verified: name must contain more then 3 charater]]>
+    </line>
+    <line>
+      <![CDATA[Company error message verified: Please enter valid company name]]>
+    </line>
+    <line>
+      <![CDATA[Number error message verified: Invalid phone no*917666 false]]>
+    </line>
+    <line>
+      <![CDATA[Address error message verified: Please enter correct address]]>
+    </line>
+    <line>
+      <![CDATA[Booking form negative test completed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-09-26T00:56:52 IST" name="Default suite" finished-at="2025-09-26T00:57:03 IST" duration-ms="11410">
+    <groups>
+    </groups>
+    <test started-at="2025-09-26T00:56:52 IST" name="Default test" finished-at="2025-09-26T00:57:03 IST" duration-ms="11410">
+      <class name="extramileplay.tests.BookingNegativeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:extramileplay.tests.BookingNegativeTest@239a307b]" started-at="2025-09-26T00:56:52 IST" name="setUp" finished-at="2025-09-26T00:56:54 IST" duration-ms="1954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBookingWithMissingData()[pri:0, instance:extramileplay.tests.BookingNegativeTest@239a307b]" started-at="2025-09-26T00:56:54 IST" name="testBookingWithMissingData" finished-at="2025-09-26T00:57:03 IST" duration-ms="9190" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening booking page]]>
+            </line>
+            <line>
+              <![CDATA[Filling booking form with missing/invalid data]]>
+            </line>
+            <line>
+              <![CDATA[Name error message verified: name must contain more then 3 charater]]>
+            </line>
+            <line>
+              <![CDATA[Company error message verified: Please enter valid company name]]>
+            </line>
+            <line>
+              <![CDATA[Number error message verified: Invalid phone no*917666 false]]>
+            </line>
+            <line>
+              <![CDATA[Address error message verified: Please enter correct address]]>
+            </line>
+            <line>
+              <![CDATA[Booking form negative test completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testBookingWithMissingData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:extramileplay.tests.BookingNegativeTest@239a307b]" started-at="2025-09-26T00:57:03 IST" name="tearDown" finished-at="2025-09-26T00:57:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- extramileplay.tests.BookingNegativeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
