@@ -41,5 +41,3 @@ Cross-browser Testing: Add support for Firefox, Edge, etc., using WebDriver.
 Data-Driven Testing: Externalize test data using Excel/CSV/JSON.
 
 Parallel Execution: Enable parallel execution in TestNG for faster regression runs.
-
-Advanced Reporting: Integrate ExtentReports or Allure for more visually appealing reports.
